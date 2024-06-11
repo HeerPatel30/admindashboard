@@ -1,0 +1,38 @@
+.sidebar{
+    flex: 1;
+    font-size:15px;
+    color: rgb(73, 73, 73);
+    height: calc( 100vh - 50px );
+    background-color:rgb(237, 237, 237);
+    position: sticky;
+    top: 50px;
+}
+
+.sidebarwrapper{
+    padding: 20px;
+    
+}
+.sidebartitle{
+
+    font-size: 14px;
+}
+.menulist{
+    list-style: none;
+    padding: 5px;
+
+}
+.menulistname{
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 10px;
+}   
+
+.menulistname.active ,.menulistname:hover{
+    background-color: rgb(209, 209, 249);
+}
+.icon{
+    margin-right: 5px;
+    font-size:20px !important;
+}
