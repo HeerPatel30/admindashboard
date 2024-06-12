@@ -1,4 +1,5 @@
 import './App.css';
+import Home from './Components/Page/Home/Home';
 import Sidebar from './Components/Sidebar/Sidebar';
 import Toolbar from './Components/Toolbar/Toolbar';
 
@@ -7,14 +8,8 @@ function App() {
     <div >
       <Toolbar/>
         <div className='container'>
-         
             <Sidebar/>
-
-         
-           <div className='other'>
-            
-            other
-          </div> 
+            <Home/>
         </div>
     </div>
   );
