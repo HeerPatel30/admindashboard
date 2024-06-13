@@ -1,6 +1,12 @@
 .chart{
    padding: 20px;
-   margin: 20px;
-   
-   
+   margin-top: 15px;
+   -webkit-box-shadow:1px 0px 15px -10px rgba(116, 107, 107, 0.49);  
+   box-shadow: 1px 0px 15px -10px rgba(90,90,90,0.75);
+    width: 100%;
+    margin-bottom:350px;
+}
+
+.charttitle{
+    margin-bottom: 20px;
 }

@@ -1,8 +1,10 @@
 import React from 'react'
 import '../Featuredinfo/Feature.css'
 import { ArrowDownward, ArrowUpward } from "@material-ui/icons"
+import Chart from '../Chart/Chart'
 const Feature = () => {
   return (
+    
     <div className='Feature'>
         <div className="featureitem">
             <span className="featuretitle">
@@ -46,7 +48,11 @@ const Feature = () => {
                 </span>
             </div>
         </div>
+        
+
     </div>
+    
+
   )
 }
 
