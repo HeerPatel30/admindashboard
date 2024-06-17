@@ -1,0 +1,60 @@
+.WidgetLg {
+    flex: 2;
+    width: 100%;
+    -webkit-box-shadow: 1px 0px 15px -10px rgba(116, 107, 107, 0.49);  
+    box-shadow: 1px 0px 15px -10px rgba(90, 90, 90, 0.75);
+    padding: 20px;
+    margin-right: 20px;
+    /* Add space between WidgetSm and WidgetLg */
+}
+.title{
+    font-size: 35px;
+    font-weight:600px;
+}
+.WidgetLgTable{
+    width: 100%;
+    border-spacing: 20px;
+    padding: 10px 20px ;
+
+}
+.tabletr{
+    text-align:left;
+}
+.user{
+    display: flex;
+    align-items: center;
+
+}
+
+.username{
+    margin-left:10px;
+}
+
+.user ,.date ,.amount{
+    font-weight:400px;
+    color: rgb(73, 72, 72);
+}
+
+Button{
+
+    width: 100px;
+    cursor: pointer;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+}
+
+.btnApproved{
+    background-color:rgb(221, 255, 221);
+    color:green;
+
+}
+.btnPending{
+    background-color:rgb(220, 243, 251) ;
+    color:blue;
+}
+.btnDecline{
+    background-color: rgb(255, 213, 213);
+    color: red;
+}

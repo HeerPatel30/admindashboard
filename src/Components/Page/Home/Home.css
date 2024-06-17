@@ -2,3 +2,9 @@
     flex: 4;
  
 }
+.homewidget{
+    display: flex;
+   
+    margin-top:-300px;
+    margin-left: 10px;
+}

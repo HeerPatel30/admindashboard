@@ -1,0 +1,27 @@
+.userlist{
+    flex: 4;
+}
+.userimg{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+.user{
+    display: flex;
+    align-items:center ;
+    padding: 1px;
+    
+}
+.name{
+    margin-left: 5px;
+}
+.userdelete{
+    color: red;
+    
+}
+.useredit{
+    background-color:rgb(13, 138, 13);
+    width: 50px;
+    padding: 5px;
+    color: white;
+}
