@@ -1,0 +1,139 @@
+.userc{
+    flex:4
+}
+.usertitlec
+{   display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.createbtn{
+    background-color: rgb(66, 121, 139);
+    text-align: center;
+    padding: 2px;
+    height: 30px;
+    color: aliceblue;
+    width: 70px;
+}
+.usercontainer{
+    display: flex;
+    
+
+}
+.usershow{
+    flex:1;
+    padding: 20px;
+    -webkit-box-shadow: 1px 0px 15px -10px rgba(116, 107, 107, 0.49);  
+    box-shadow: 1px 0px 15px -10px rgba(90, 90, 90, 0.75);
+}
+.userup{
+    flex:2;
+    padding: 20px;
+    margin-left:10px;
+    -webkit-box-shadow: 1px 0px 15px -10px rgba(116, 107, 107, 0.49);  
+    box-shadow: 1px 0px 15px -10px rgba(90, 90, 90, 0.75);
+}
+.usershowtop{
+    display: flex;
+    align-items: center;
+    margin: 5px;
+}
+.userdetail{
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+    margin-left: 15px;
+
+}
+
+.uname{
+    font-weight: 600;
+}
+.ujob{
+    font-weight:300;
+    color: rgb(158, 156, 156);
+}
+.imgs{
+    height:60px;
+    width: 60px;
+    border-radius:50% ;
+    object-fit: cover;
+
+}
+.usershowbottom{
+    display: flex;
+    flex-direction: column;
+}
+
+.showtitle{
+    padding: 10px;
+    font-size:15px;
+    /* margin-top:15px; */
+    color: rgb(158, 156, 156) ;
+}
+
+.showinfo{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    margin-left: 0px;
+    color:rgb(61, 61, 61);
+}
+.showlogo{
+    font-size: 20px !important;
+}
+.showname{
+    margin-left:10px;
+}
+.updateimg{
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+.upform{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.uptitle{
+    font-size: 30px;
+    font-weight: 600;
+    
+}
+.upleft{
+    margin: 5px;
+}
+.formitem{
+    display: flex;
+    flex-direction: column;
+    padding:15px;
+}
+
+.upinput{
+    padding: 10px ;
+    border: none;
+    width: 250px;
+    border-bottom: 1px solid grey;
+}
+.upright{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    
+}
+.upimg{
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+.upric{
+    margin-left: 10px;
+}
+
+.uprightbtn{
+    width: 150px;
+    color: aliceblue;
+    cursor: pointer;
+    background-color: rgb(7, 7, 116);
+}

@@ -1,5 +1,6 @@
 import React from 'react'
 import '../Sidebar/Sidebar.css'
+import {Link} from "react-router-dom"
 import{LineStyle,Timeline,TrendingUp,Person,Storefront,AttachMoney,Report, Mail, Feedback, Message,BusinessCenter, Equalizer} from "@material-ui/icons"
 const Sidebar = () => {
   return (
@@ -8,10 +9,12 @@ const Sidebar = () => {
             <div className="menubar">
                 <h3 className="sidebartitle">Dashboard</h3>
                 <ul className="menulist">
+                   <Link to={"/"} className='Link'>
                     <li className='menulistname active'>
                         <LineStyle className='icon' />
                         Home
                     </li>
+                   </Link>
                     <li className='menulistname'>
                         <Timeline className='icon'/>
                         Analytics
@@ -25,14 +28,18 @@ const Sidebar = () => {
             <div className="menubar">
                 <h3 className="sidebartitle">Quick Menu</h3>
                 <ul className="menulist">
+                    <Link to={"/userlist"}  className='Link'> 
                     <li className='menulistname'>
                         <Person className='icon'/>
                         Users
                     </li>
+                    </Link>
+                    <Link to={"/product"} className='Link'>
                     <li className='menulistname'>
                         <Storefront className='icon'/>
                         Products
                     </li>
+                    </Link>
                     <li className='menulistname'>
                         <AttachMoney className='icon'/>
                         Transcations

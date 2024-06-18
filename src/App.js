@@ -1,5 +1,7 @@
 import './App.css';
 import Home from './Components/Page/Home/Home';
+import Newuser from './Components/Page/Newuser/Newuser';
+import User from './Components/Page/User/User';
 import Userlist from './Components/Page/Userlist/Userlist';
 import Sidebar from './Components/Sidebar/Sidebar';
 import Toolbar from './Components/Toolbar/Toolbar';
@@ -15,6 +17,8 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/userlist" element={<Userlist />} />
+            <Route path="/user/:userid" element={<User/>} />
+            <Route path='/newuser' element={<Newuser/>}/>
           </Routes>
         </div>
       </BrowserRouter>

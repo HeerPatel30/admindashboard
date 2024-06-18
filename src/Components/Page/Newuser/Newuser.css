@@ -1,0 +1,47 @@
+.newuser{
+    flex: 4;
+    margin: 10px;
+}
+.ntitle{
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.newuserform{
+    display: flex;
+    flex-wrap: wrap;
+}
+.newformitem{
+    width: 400px;
+    display: flex;
+    margin-top: 50px;
+    margin-right: 20px;
+    flex-direction: column;
+}
+.newformitem{
+    color: rgb(114, 113, 113);
+    margin-bottom: 20px;
+    font-size: 14px;
+    font-weight: 600;
+}
+.gen{
+    margin:15px;
+    display: flex;
+    text-align: center;
+    text-align: left;
+    margin-left: 0px;
+    
+}
+.selectu{
+    margin:15px;
+    margin-left: 0px;
+    height:30px;
+    border-radius: 5px;
+}
+
+.newbtn{
+    margin-top:-15px;
+    width: 150px;
+    background-color: rgb(38, 38, 103);
+    color: aliceblue;
+}
